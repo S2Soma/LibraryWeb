@@ -1,0 +1,131 @@
+.QLSach-Container {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  position: relative;
+}
+.search-book
+{
+  display: flex;
+}
+.search-input{
+  width: 300px;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: none;
+  border-radius: 16px;
+}
+.search-selection
+{
+  height: 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 16px;
+}
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.img_book {
+  width: 200px;
+  height: 300px;
+
+}
+.book{
+  border: none;
+  position: relative;
+  font-size: 20px;
+}
+
+.book:before,
+.book:after {
+  content: '';
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.book:before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 5px solid #00e1ff;
+  border-right: 5px solid #005bc4;
+  transform: translate(-100%, 50%);
+}
+
+.book:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 5px solid #00e1ff;
+  border-left: 5px solid #005bc4;
+  transform: translate(100%, -50%)
+}
+
+.book:hover:before,
+.book:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.book:hover {
+  color: #0047b1;
+}
+.add-book-button {
+  position: absolute;
+  width: 100px;
+  top: 5px;
+  bottom: 5px;
+  right: 10px;
+  text-align: center;
+}
+
+.add-book-button button {
+  padding: 10px;
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-book-button button:hover {
+  background-color: #0b7dda;
+}
+.sachRong{
+  font-size: 34px;
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  color: red;
+
+}

@@ -1,0 +1,37 @@
+.slider-container {
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+.slideshow {
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+.slideshow:hover {
+  transform: scale(1.1);
+}
+.image-slide {
+  width: 500px;
+  height: 600px;
+  transition: opacity 1s ease-in-out;
+}
+.image-slide:hover{
+  box-shadow: 0 0 10px rgba(252, 30, 204, 0.8), 0 0 20px rgba(255, 0, 234, 0.8), 0 0 30px rgba(255, 0, 221, 0.8);
+}
+.book-name {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  right: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.74);
+  text-shadow: 0 0 10px rgba(19, 247, 255, 0.8), 0 0 20px rgba(0, 247, 255, 0.8), 0 0 30px rgba(0, 153, 255, 0.8);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  z-index: 1;
+}

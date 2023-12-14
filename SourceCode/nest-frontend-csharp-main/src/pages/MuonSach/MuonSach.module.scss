@@ -1,0 +1,305 @@
+
+/* ================================================================ */
+#Content_MuonSach{
+      margin: 5px;
+}
+.Ban_Doc{
+      margin: 10px 0;
+}
+.P_banDoc{
+    position: relative;
+    left: 120px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+            
+}
+.P_banDoc::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    /* right: 900px; */
+    left: -106px;
+    width: 90px;
+    height: 7px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+// ============================================================
+// kiểm tra đâu vào
+.invalid_phone{
+      color: red;
+      font-size: 14px;
+      margin: -12px 0 0 0;
+      
+}
+.invalid_NgayTra{
+      color: red;
+      font-size: 14px;
+      margin: -12px 0 0 0;
+      
+}
+.invalid_hoten{
+      color: red;
+      font-size: 14px;
+      margin: -12px 0 0 0;
+}
+
+// ============================================================
+
+.P_banDoc::after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 128px;
+    width: 928px;
+    height: 7px;
+    border-bottom: 1px solid #6c6c6c;
+    
+}
+/* .thongTinCaNhan{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 5px;
+} */
+.thongTinCaNhan{
+      display: flex;
+      margin-left: 30px;
+}
+.label_thongtin{
+      display: flex;
+      flex-direction: column;
+      // margin-bottom: 18px;
+      
+      
+}
+.label_thongtin label{
+      margin-bottom: 28px;
+}
+
+.input_thongtin{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 30px;
+      
+}
+
+
+
+.input_thongtin input{
+      width: 200px;
+      margin-bottom: 18px;
+      border-radius: 10px;
+      padding: 2px 5px;
+
+}
+.input_thongtin input::placeholder{
+      text-decoration: underline;
+}
+.thongTin{
+    margin: 15px;
+    font-size: 20px;
+
+}
+
+
+.thongTin input {
+    border-radius: 10px;
+    /* margin-left: 70px; */
+    padding:  3px 5px;
+    
+}
+
+#SachMuonMuon{
+
+}
+.P_SachMuonMuon{
+      position: relative;
+      left: 120px;
+      font-weight: bold;
+      font-size: 30px;
+      color: #000;
+              
+  }
+.P_SachMuonMuon::before {
+position: absolute;
+content: "";
+top: 10px;
+/* right: 900px; */
+left: -106px;
+width: 90px;
+height: 7px;
+border-bottom: 1px solid #6c6c6c;
+}
+  
+.P_SachMuonMuon::after {
+position: absolute;
+content: "";
+top: 10px;
+left: 250px;
+width: 800px;
+height: 7px;
+border-bottom: 1px solid #6c6c6c;
+
+}
+
+.Nhapthongtin{
+      display: flex;
+      justify-content: space-between;
+      margin: 2px 5px;
+}
+
+.Nhap_ma_sach{
+
+}
+.Input_Nhap_ma_sach{
+      height: 25px;
+      width: 600px;
+      margin-left: 20px;
+      padding: 0 10px;
+}
+.BT_Them{
+      height: 30px;
+      width: 70px;
+      background-color: rgb(122, 233, 216);
+      border-radius: 20px;
+      cursor: pointer;
+}
+
+.SachMuonMuon{
+      
+     
+      
+}
+.ThongtinSach{
+      display: flex;
+      margin: 10px 10px;
+      justify-content: space-between;
+      background-color: #E6E6FA;
+      padding: 8px;
+      
+}
+
+
+.icon_anh{
+      width: 80px;
+      height: 120px;
+}
+.thong_Tin_Anh{
+      display: flex;
+}
+.img_NNNHL{
+      width: 90px;
+      height: 140px;
+}
+.MoTa{
+      margin: 0 10px;
+      font-weight: bold;
+      font-size: 18px;
+
+}
+.div_NgayTra{
+      position: relative;
+      
+}
+.icon_calendar{
+      position: absolute;
+      right: 11px;
+      top: 3px;
+}
+.calendar{
+      position: fixed;
+      z-index: 1;
+      left: 40%;
+      top: 26%;
+}
+.Chucnang{
+      margin: 0 30px;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      font-size: 30px;
+      
+}
+
+.cong{
+      margin: 0 5px;
+      cursor: pointer;
+      
+}
+.so_Luong{
+      margin-right: 50px;
+      background-color: aliceblue;
+      
+}
+
+.icon_delete{
+      width: 40px;
+      height: 45px;
+      cursor: pointer;
+}
+.Bt_XuLy{
+      position: fixed;
+      // float: right;
+      bottom: 0;
+      right: 0;
+      margin: 20px 20px;
+}
+.BT_Huy, .BT_XacNhan{
+      font-size: 20px;
+      margin: 0 10px;
+      border-radius: 20px;
+      background-color: rgb(122, 233, 216);
+      cursor: pointer;
+}
+
+.calendar{
+      border:solid 1px #777; 
+      width : 400px ;
+      height: 300px ;
+
+}
+
+/*Form delete ================================================================ */
+.overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1000;
+      display: none;
+    }
+    
+    .delete-form {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      z-index: 1001;
+    }
+    .delete-form p {
+      margin-bottom: 20px;
+    }
+    
+    .delete-form button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .delete-form.active,
+    .overlay.active {
+      display: block;
+    }
+    
+    .overlay.active {
+      pointer-events: auto;
+    }

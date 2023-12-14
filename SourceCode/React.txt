@@ -1,0 +1,4 @@
+npm i @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @testing-library/jest-dom @testing-library/react @testing-library/user-event
+npm i axios babel-plugin-module-resolver bootstrap classnames customize-cra http-proxy-middleware
+npm i js-cookie prop-types query-string react react-app-rewired react-dom
+npm i react-paginate react-router-dom react-scripts react-toastify sass web-vitals
